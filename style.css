@@ -62,3 +62,27 @@ header {
     display: inline-block; /*inline item will not allow vertical margins*/ 
     margin-top: 13px;
 }
+
+.navbar,
+.hero {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.hero {
+    padding: 100px 20px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.hero-text,
+.hero-img {
+   flex: 1 1 400px;
+   /* border: 2px solid red; */
+}  
+
