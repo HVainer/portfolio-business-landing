@@ -84,5 +84,27 @@ header {
 .hero-img {
    flex: 1 1 400px;
    /* border: 2px solid red; */
-}  
+}
+
+.info {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.item-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+    display: block;
+}
+
+.info-heading {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px 0;
+
+}
+
 
