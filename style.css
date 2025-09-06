@@ -8,6 +8,11 @@ body {
     font-family:'Roboto', sans-serif;
 }
 
+header {
+    background: #1f2937; 
+    color: white;
+}
+
 .navbar a:hover {
     color: #3882F6;
 }
@@ -25,7 +30,35 @@ body {
 
 }
 
-header {
-    background: #1f2937; 
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.hero-img img {
+    max-width: 100%;
+    height: auto; /*maintains original aspect ratio */
+    object-fit: contain; /*scales img without stretching it*/
+    display: block; /*removes space under img */
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F3F4F6;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #D1D5DB;
+}
+
+.sign-up {
+    text-decoration: none;
+    background-color: #3882F6;
+    border-radius: 5px;
     color: white;
+    padding: 5px 15px;
+    display: inline-block; /*inline item will not allow vertical margins*/ 
+    margin-top: 13px;
 }
