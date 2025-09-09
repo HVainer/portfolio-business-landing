@@ -87,24 +87,42 @@ header {
 }
 
 .info {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 20px 70px;
+    /* border: 2px solid red; */
 }
 
 .item-img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    object-fit: contain;
+    object-fit: cover;
     display: block;
 }
 
 .info-heading {
     font-size: 36px;
     font-weight: 900;
+    color: #1F2937;
     text-align: center;
-    padding: 50px 0;
-
+    padding: 50px 0 0;
 }
+
+.info > * {
+    flex: 1 1 300px;
+    /* border: 2px solid red; */
+}
+
+.item-text {
+    text-align: center;
+    padding: 10px;
+    color: #4B5563;
+}
+
 
 
