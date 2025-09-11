@@ -109,6 +109,7 @@ header {
     border-radius: 8px;
     object-fit: cover;
     display: block;
+    transition: transform 0.3s ease; /*makes a smooth hover effect*/
 }
 
 .info-heading {
@@ -136,6 +137,22 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /*makes a smooth hover effect*/
+}
+
+.item:hover {
+    transform: translateY(-15px); /*lift effect*/
+    box-shadow: 0 12px 20px rgba(0,0,0,0.15); /*creates more depth when hovering */
+}
+
+.item-img:hover {
+    transform: scale(1.05); /*zoom in effect*/
+}
+
+.item-text:hover{
+    color: #111827;
 }
 
 .quote-section{
