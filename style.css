@@ -17,7 +17,7 @@ header {
     color: #3882F6;
 }
 
-.action-sign-up,
+.action-sign-up:hover,
  .sign-up:hover {
   background-color: #2563EB; 
   border-color: #2563EB;
@@ -201,6 +201,29 @@ header {
 .action-container {
     padding: 125px 0;
 }
+
+footer a {
+    margin-right: 20px;
+    color: #E5E7EB;
+}
+
+footer a:hover {
+    color: #3882F6;
+}
+
+footer p {
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+footer {
+    background: #1f2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 20px 20px;
+}
+
 
 
 
