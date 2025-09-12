@@ -46,6 +46,8 @@ header {
     height: auto; /*maintains original aspect ratio */
     object-fit: contain; /*scales img without stretching it*/
     display: block; /*removes space under img */
+    border-radius: 8px;
+    box-shadow: -15px 15px 24px 2px rgba(0,0,0,0.50);
 }
 
 .hero-text h2 {
